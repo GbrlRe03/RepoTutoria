@@ -1,0 +1,25 @@
+import roles.*
+import liga.*
+import candidatos.*
+
+describe "test cambiando escenarios iniciales y probando roles" {
+
+  test "cambios en helia" {
+  
+  }
+
+  test "cambios en astro"{
+
+  }
+}
+
+describe "punto 1 de los test" {
+  test "ver si helia y astro se vuelven guardianes" {
+   
+    const guardianesEsperados = [helia,astro]
+    ayudante.cambiarFuerzaMin(10)
+    liga.entrenarCandidatos()
+    liga.superarEvaluacionPara(ayudante)
+    assert.equals(guardianesEsperados, liga.guardianes())
+}
+}
