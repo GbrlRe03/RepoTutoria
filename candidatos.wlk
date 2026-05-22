@@ -8,6 +8,10 @@ object helia {
  method entrenar(){
 
  }
+// nunca va a tener estudios avanzados segun consigna
+ method esAvanzado(){
+  return false
+ }
 }
 
 
@@ -19,14 +23,14 @@ object astro {
   method fuerza() = cantArmas*10
 
   method esAvanzado(){
-    cantArmas > 5
+   return cantArmas > 5
   }
 }
 
 
 object zoe {
   const rolesAprendidos = []
-
+  method rolesAprendidos() = rolesAprendidos
   method entrenar(){
     if (!rolesAprendidos.contains(liga.rolActual())){
         rolesAprendidos.add(liga.rolActual())

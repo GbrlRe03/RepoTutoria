@@ -31,4 +31,3 @@ Dejamos 2 test propuestos a modo de ejemplo y ambos tienen una inicialización q
 1. Cambia el mínimo del rol ayudante a 10 unidades, la liga entrena  y luego une a candidatos para el rol 2. ayudante. Verificar que solo se convierte en guardianes helia y astro.
 2. La liga cambia el rol destacado a estratega, entrena y luego une a los candidatos para el rol estratega. Verificar que solo se convierte en guardián zoe
 
-

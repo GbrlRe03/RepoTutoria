@@ -23,3 +23,14 @@ describe "punto 1 de los test" {
     assert.equals(guardianesEsperados, liga.guardianes())
 }
 }
+
+describe "punto 2 de los test"{
+  test "comprobar si zoe se une a los guardianes"{
+    const guardianesEsperados = [zoe]
+    liga.modificarRol(estratega)
+    liga.entrenarCandidatos()
+    liga.superarEvaluacionPara(estratega)
+    assert.equals(guardianesEsperados, liga.guardianes())
+
+  }
+}
